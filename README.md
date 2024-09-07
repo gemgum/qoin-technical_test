@@ -24,7 +24,7 @@ Navigasi ke Direktori Proyek: Pindah ke direktori proyek:
 ### Cara Run Aplikasi
 1. **Pindah Direktori**:
     ```bash    
-    cd dicegame
+    cd /qoin-technical_test
 Jalankan Permainan: Pastikan Golang terinstal di komputer Anda. Jalankan perintah di bawah ini untuk memulai permainan:
 
 2. **Run main.go**:
