@@ -1,8 +1,9 @@
-## README - Permainan Dadu (Dice Game)
+### JAWABAN SOAL TEORI SUDAH ADA DI REPO INI
+1. **Jawaban Soal Teori**:
+    ```bash
+    git clone https://github.com/gemgum/qoin-technical_test.git
 
----
-
-### Deskripsi Proyek
+### Deskripsi APLIKASI PRAKTEK DICE-GAME
 
 Permainan dadu ini adalah sebuah aplikasi berbasis Golang yang mengimplementasikan permainan sederhana untuk beberapa pemain. Setiap pemain akan melempar sejumlah dadu pada setiap giliran, melakukan evaluasi hasil lemparan, dan mengikuti aturan khusus yang berlaku pada angka dadu tertentu. Permainan ini didasarkan pada konsep yang dibuat oleh Gilang, dan berakhir ketika hanya tersisa satu pemain yang masih memiliki dadu. Pemain dengan poin terbanyak akan menjadi pemenang.
 
