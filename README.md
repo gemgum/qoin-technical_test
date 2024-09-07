@@ -1,7 +1,5 @@
 ### JAWABAN SOAL TEORI SUDAH ADA DI REPO INI
-1. **Jawaban Soal Teori**:
-    ```bash
-    git clone https://github.com/gemgum/qoin-technical_test.git
+1. **Jawaban Soal Teori**: https://github.com/gemgum/qoin-technical_test/blob/main/Jawaban%20Soal%20Teori.docx
 
 ### Deskripsi APLIKASI PRAKTEK DICE-GAME
 
