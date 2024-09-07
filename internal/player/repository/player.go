@@ -20,7 +20,7 @@ func NewPlayerMod() player.PlayerMod {
 }
 
 func (pm *playerMod) DiceNumbGenerator(min int, max int) (int, error) {
-	RandomIntegerwithinRange := rand.Intn(max-min) + min // range is min to max
+	RandomIntegerwithinRange := rand.Intn(max-min) + min
 	return RandomIntegerwithinRange, nil
 
 }

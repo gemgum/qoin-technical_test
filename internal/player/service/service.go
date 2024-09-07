@@ -16,10 +16,7 @@ func NewPlayerServ(m player.PlayerMod) player.PlayerServ {
 }
 
 func removeElement(slice []int) []int {
-	// Hasil slice baru setelah elemen dihapus
 	result := []int{}
-
-	// Iterasi setiap elemen dalam slice asli
 	for _, v := range slice {
 		if v != 6 {
 			result = append(result, v)
@@ -57,7 +54,7 @@ func (ps *playerServ) PlayerTurn(dataPlayer []player.Player) ([]player.Player, e
 		}
 		rv[i] = result
 	}
-	fmt.Println("rv", rv)
+	fmt.Println("Player Turn", rv)
 
 	return rv, nil
 }
@@ -101,7 +98,7 @@ func (ps *playerServ) GameRules(data []player.Player) ([]player.Player, error) {
 	}
 
 	for i, v := range data {
-		fmt.Println("player ", i, v)
+		fmt.Println("Player ", i+1, v)
 	}
 	fmt.Println()
 
@@ -132,7 +129,6 @@ func (ps *playerServ) TheWinner(dataPlayer []player.Player) error {
 		max := dataPlayer[0].Point
 		posPlay := dataPlayer[0].Player
 		for j := 1; j < len(dataPlayer); j++ {
-			// fmt.Println("sw", max, dataPlayer[j].Point)
 			if dataPlayer[j].Point > max {
 				dataPlayer[index].Point = dataPlayer[j].Point
 				dataPlayer[index].Player = dataPlayer[j].Player
@@ -145,9 +141,8 @@ func (ps *playerServ) TheWinner(dataPlayer []player.Player) error {
 		}
 	}
 
-	// fmt.Println(dataPlayer)
 	for i, v := range dataPlayer {
-		fmt.Println("Juara", i+1, "Player ke", v.Player, "dengan Poin ", v.Point)
+		fmt.Println("Juara", i+1, "Player ke", v.Player+1, "dengan Poin ", v.Point)
 	}
 	return nil
 }
